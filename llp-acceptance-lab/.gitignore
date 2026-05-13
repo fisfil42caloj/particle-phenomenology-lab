@@ -8,6 +8,3 @@ __pycache__/
 venv/
 env/
 .ipynb_checkpoints/
-figures/*.png
-figures/*.pdf
-figures/*.svg
