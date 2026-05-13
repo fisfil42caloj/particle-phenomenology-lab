@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{LLP Acceptance Lab: un estudio fenomenologico toy de particulas de larga vida}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduccion}
+
+% TODO: Add real references and a short introduction to long-lived particles.
+
+\section{Cinematica relativista}
+
+For a particle with total energy $E$ and mass $m$ in natural units,
+\begin{equation}
+  \gamma = \frac{E}{m},
+  \qquad
+  \beta\gamma = \frac{p}{m}
+  = \frac{\sqrt{E^2 - m^2}}{m}.
+\end{equation}
+
+\section{Probabilidad de decaimiento espacial}
+
+The mean decay length in the lab frame is
+\begin{equation}
+  L_{\mathrm{lab}} = \beta\gamma c\tau.
+\end{equation}
+
+The probability to decay between two path lengths $L_1$ and $L_2$ is
+\begin{equation}
+  P(L_1 < L < L_2)
+  = \exp\left(-\frac{L_1}{L_{\mathrm{lab}}}\right)
+  - \exp\left(-\frac{L_2}{L_{\mathrm{lab}}}\right).
+\end{equation}
+
+\section{Regiones detectoras idealizadas}
+
+% TODO: Add toy regions in a later phase. Do not claim real detector dimensions.
+
+\section{Distribuciones de boost}
+
+% TODO: Add boost-averaged acceptance.
+
+\section{Geometria cilindrica toy}
+
+% TODO: Add cylindrical toy geometry.
+
+\section{Aplicacion toy a una ALP}
+
+% TODO: Add toy ALP-like photon-coupling lifetime.
+
+\section{Conclusiones}
+
+% TODO: Summarize lessons and limitations after the implementation is complete.
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
